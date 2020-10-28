@@ -16,6 +16,7 @@
 }
 body {
     font-family: 'Raleway','Playfair Display','Roboto', sans-serif;
+    background: #242B33;
 }
 .container {
     width: 1100px;
@@ -78,6 +79,7 @@ body {
 .header__communication {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-bottom: 75px;
 }
 .header__communication a:first-child {
@@ -87,8 +89,54 @@ body {
     margin-right: 15px;
 }
 .header__communication a {
+    display: flex;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 21px;
 }
+.header__communication a:hover {
+    transition: .2s linear;
+    color: #D4C17F;
+}
+
+
+
+
+.testimonials {
+    padding: 120px 0px;
+}
+.testimonials__body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block {
+    max-width: 200px;
+    text-align: center;
+}
+.block__bicycle {
+    max-width: 140px;
+}
+.testimonials img {
+    margin-bottom: 50px;
+}
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+}
+.numerals {
+    position: absolute;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 400px;
+    line-height: 100px;
+    opacity: 0.02;
+    margin-left: 100%;
+}
+
+
+
 
