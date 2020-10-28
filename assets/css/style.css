@@ -1,0 +1,94 @@
+@font-face {
+	font-family: 'PostNoBillsJaffna';
+	font-display: swap;
+	src: url('../fonts/PostNoBillsJaffna-SemiBold.ttf');
+	src: local("O"), url("../fonts/PostNoBillsJaffna-SemiBold.ttf") format("truetype"); 
+	font-weight: 600;
+	font-style: normal;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
+body {
+    font-family: 'Raleway','Playfair Display','Roboto', sans-serif;
+}
+.container {
+    width: 1100px;
+    margin: 0px auto;
+}
+.header {
+    background: url('../images/head-img.png');
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.title {
+    font-family: 'PostNoBillsJaffna', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+}
+.subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+.header__navigation,
+.navigation__list {
+    display: flex;
+}
+.navigation__list {
+    align-items: center;
+}
+.navigation__list a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    margin-right: 40px;
+}
+.navigation__list a:hover {
+    transition: .2s linear;
+    color: #D4C17F;
+}
+.header__body {
+    max-width: 560px;
+    text-align: center;
+    padding: 200px 0px;
+    margin: 0px auto;
+}
+.caption {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #D4C17F;
+    margin-bottom: 100px;
+}
+.header__communication {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 75px;
+}
+.header__communication a:first-child {
+    margin-right: 100px;
+}
+.header__communication img {
+    margin-right: 15px;
+}
+.header__communication a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+}
+
