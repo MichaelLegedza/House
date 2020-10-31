@@ -264,7 +264,7 @@ input:focus {
 .district:hover {
     transition: .3s linear;
     color: #242B33;
-    background-color: #92c913;
+    background: linear-gradient(-45deg, #EEF3D2, #FC8884);
 }
 
 
@@ -335,15 +335,53 @@ input:focus {
     display: flex;
     flex-direction: column;
 }
+.footer__communication a:hover {
+    text-decoration: underline;
+}
 .footer__communication .mailto {
     margin-bottom: 20px;
+}
+.assent {
+    color: #D4C17F;
 }
 .communication__icons img {
     margin-right: 20px;
 }
-.communication__icons a {
-
+.icons__link {
+    margin-right: 15px;
 }
-.assent {
-    color: #D4C17F;
+.icons__link:hover {
+    transition: .2s linear;
+}
+.icons__link.icons__link--1 {
+    background: url('../images/youtube.svg') no-repeat;
+    width: 28px;
+    height: 20px;
+}
+.icons__link.icons__link--1:hover {
+    background: url('../images/youtube-hov.svg') no-repeat;
+}
+.icons__link.icons__link--2 {
+    background: url('../images/vk.svg') no-repeat;
+    width: 35px;
+    height: 20px;
+}
+.icons__link.icons__link--2:hover {
+    background: url('../images/vk-hov.svg') no-repeat;
+}
+.icons__link.icons__link--3 {
+    background: url('../images/face.svg') no-repeat;
+    width: 15px;
+    height: 20px;
+}
+.icons__link.icons__link--3:hover {
+    background: url('../images/facebook-hov.svg') no-repeat;
+}
+.icons__link.icons__link--4 {
+    background: url('../images/insta.svg') no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.icons__link.icons__link--4:hover {
+    background: url('../images/instagram-hov.svg') no-repeat;
 }
